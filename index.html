@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <h1>HOME</h1>
+        <a href="About">About</a>
+        <a href="Project">Project</a>
+        <a href="Skills">Skills</a>
+        <input type="button" value="contact us">
+       
+    </nav>
+
+    <form>
+        <input type="email" name="email" id="" placeholder="email" require readonly>
+        <input type="password" name="password" id="" placeholder="password" require readonly><br>
+        <p>Gender</p>
+        <input type="checkbox" name="check" id="" onclick="checkonlyOne(this.value)">Male
+        <input type="checkbox" name="check" id="" onclick="checkonlyOne(this.value)">Female <br>
+        <input type="button" value="login">
+
+    </form>
     
 </body>
 </html>
